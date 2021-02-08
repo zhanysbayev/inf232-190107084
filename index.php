@@ -13,6 +13,9 @@
 
     $d=cal_days_in_month(CAL_GREGORIAN,2,2019);
 echo "<br>There was $d days in February 2019.<br>";
+
+echo "<br>";
+var_dump(checkdate(1,1,1));
     ?>
 </body>
 </html>
