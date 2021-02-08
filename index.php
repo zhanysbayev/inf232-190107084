@@ -16,6 +16,10 @@ echo "<br>There was $d days in February 2019.<br>";
 
 echo "<br>";
 var_dump(checkdate(1,1,1));
+
+$date=date_create("2002-07-11");
+date_add($date,date_interval_create_from_date_string("40 days"));
+echo date_format($date,"Y-m-d");
     ?>
 </body>
 </html>
