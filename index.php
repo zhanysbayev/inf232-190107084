@@ -10,6 +10,9 @@
     <h1>Hello</h1>
     <?php
     echo "HELLO WORLD";
+
+    $d=cal_days_in_month(CAL_GREGORIAN,2,2019);
+echo "<br>There was $d days in February 2019.<br>";
     ?>
 </body>
 </html>
